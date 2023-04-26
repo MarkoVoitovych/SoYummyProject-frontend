@@ -2,7 +2,7 @@
   "name": "node_project_front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://markovoitovych.github.io/SoYummyProject-frontend/",
   "dependencies": {
     "@blueprintjs/select": "^4.9.10",
     "@emotion/react": "^11.10.6",
