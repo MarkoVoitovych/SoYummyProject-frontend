@@ -82,7 +82,7 @@ const MyRecipes = () => {
                 })}
               </ContentWrapper>
             ) : (
-              <EmptyPagePlug text="You currently don't have any own recipes added. Let's add some!" />
+              <EmptyPagePlug text="You currently don't have any own recipes. Let's add some!" />
             )}
             {recipes && recipes.length > 0 && (
               <PaginationComp

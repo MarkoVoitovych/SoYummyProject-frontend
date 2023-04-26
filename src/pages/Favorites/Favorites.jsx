@@ -74,7 +74,7 @@ const Favorites = () => {
                 })}
               </ContentWrapper>
             ) : (
-              <EmptyPagePlug text="You currently don't have any favorite recipes added. Let's add some!" />
+              <EmptyPagePlug text="You currently don't have any favorite recipes. Let's add some!" />
             )}
             {favorites && favorites.length > 0 && (
               <PaginationComp
