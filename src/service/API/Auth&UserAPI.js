@@ -3,6 +3,7 @@ import axios from 'axios';
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL_BACK;
 
 export const signUpUserAPI = user => {
+  console.log(process.env.REACT_APP_BASE_URL_BACK);
   return axios.post('/auth/signup', user).then(({ data }) => {
     return data;
   });
