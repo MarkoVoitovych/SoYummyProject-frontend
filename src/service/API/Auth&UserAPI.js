@@ -9,6 +9,7 @@ export const signUpUserAPI = user => {
 };
 
 export const logInUserAPI = user => {
+  console.log(process.env.REACT_APP_BASE_URL_BACK);
   return axios.post('/auth/login', user).then(({ data }) => {
     return data;
   });
